@@ -42,6 +42,7 @@ import { AuthInterceptor } from './interceptors/auth.interceptor';
 import { HomeComponent } from './components/home/home/home.component';
 import { UserComponent } from './components/auth/user-profil/user-profil.component';
 import { UsereditComponent } from './components/auth/user-profil/useredit/useredit.component';
+import { ContactusComponent } from './component/contactus/contactus.component';
 
 
 
@@ -81,6 +82,7 @@ export function tokenGetter() {
     HomeComponent,
     UserComponent,
     UsereditComponent,
+    ContactusComponent,
    
    
     
